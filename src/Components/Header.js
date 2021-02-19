@@ -27,7 +27,7 @@ const Header = () => {
         <div className="titles">
           <h1 className="titles__title">Зарабатывайте больше <br/> работая  меньше!</h1>
           <p className="titles__sub"><span>CryptoCash</span> знает как вам помочь</p>
-          <Button buttonText="Инвестировать сейчас"/>
+          <Button text={'Инвестировать сейчас'}/>
         </div>
         <img className="header__img" src={HeaderImg} alt="HeaderImg"/>
     </header>

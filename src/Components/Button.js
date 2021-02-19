@@ -1,7 +1,7 @@
-const Button = ({buttonText}) => {
+const Button = ({text}) => {
   return ( 
-    <div className="button">
-      <button className="button__btn" >{buttonText}</button>
+    <div>
+      <button className="button__btn">{text}</button>
     </div>
    );
 }
